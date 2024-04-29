@@ -50,15 +50,12 @@ namespace ConsoleApp1
 
             Console.Write("Enter the first number: ");
             string numberAInput = Console.ReadLine();
-            int numberA = Convert.ToInt32(numberAInput);
-            Console.ReadLine();
-            
+            int numberA = Convert.ToInt32(numberAInput);        
                 
             Console.Write("Enter the second number: ");
             string numberBInput = Console.ReadLine();
             int numberB = Convert.ToInt32(numberBInput);
-            Console.ReadLine();
-
+            
             int answer = numberA * numberB;
 
             Console.Write("Value of " + numberA + " x " + numberB + ":");
@@ -73,6 +70,8 @@ namespace ConsoleApp1
             {
                 Console.WriteLine("Close but wrong!");
             }
+
+            Console.ReadLine();
         }
     }
 }
