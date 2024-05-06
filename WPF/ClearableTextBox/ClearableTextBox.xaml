@@ -1,0 +1,8 @@
+<Grid>
+    <TextBox x:Name="txtinput" VerticalContentAlignment="Center"
+             FontSize="16" FontWeight="Light"/>
+    <TextBlock x:Name="tbPlaceholder" Text="Hello, there" FontSize="16" FontWeight="Light"
+               Foreground="DarkGray" VerticalAlignment="Center" Margin="5, 0, 0, 0"/>
+    <Button x:Name="btnclr" Width="30" HorizontalAlignment="Right" Content="X"
+            Background="Transparent" Foreground="LightGray" BorderThickness="0" />
+</Grid>
